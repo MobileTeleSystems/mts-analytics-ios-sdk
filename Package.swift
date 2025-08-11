@@ -15,13 +15,13 @@ let package = Package(
     dependencies: [
       	.package(url: "https://github.com/microsoft/plcrashreporter.git", .upToNextMajor(from: "1.11.0")),
         .package(url: "https://github.com/apple/swift-protobuf.git", .upToNextMajor(from: "1.27.1")),
-        .package(url: "https://github.com/groue/GRDB.swift", .upToNextMajor(from: "7.5.0"))
+        .package(url: "https://github.com/groue/GRDB.swift", from: "6.29.3")
     ],
     targets: [
         .binaryTarget(
             name: "MTAnalytics",
-            url: "https://packages.a.mts.ru/repository/apple-sdk/ios-sdk/build/MTAnalytics-5.2.0.zip",
-            checksum: "c9d5a31b1e2d1a392222d5ea346db28f5ee9efcff0af460f1665e6b6f4b1c9d1"
+            url: "https://packages.a.mts.ru/repository/apple-sdk/ios-sdk/build/MTAnalytics-5.3.0.zip",
+            checksum: "73ec0cdfe0e92275350d24c4b977d7d811f35ccc50ceaa46e981d9fddecc22ab"
          )
     ]
 )
