@@ -46,7 +46,7 @@ pod 'MTAnalytics', '~> x.x.x'
 
 2. Устанавливаем ссылку на библиотеку MTAnalytics в Podfile:
 ```ruby
-source 'https://github.com/MobileTeleSystems/mts-analytics-podspecs'
+source 'https://github.com/MobileTeleSystems/mts-analytics-ios-sdk'
 ```
 3. Сохраните Podfile и введите pod install в Терминале для установки библиотеки.
 
