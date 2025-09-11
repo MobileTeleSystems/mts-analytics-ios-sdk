@@ -16,7 +16,7 @@ s.author = { "Pavel Bogart" => "pibogar1@mts.ru" }
 s.homepage = "https://a.mts.ru/"
 
 s.source = { :http => "https://packages.a.mts.ru/repository/apple-sdk/ios-sdk/build/MTAnalytics-5.3.1.zip",
-             :sha256 => "02f8a3160c4fc7da5d0e1d42c90016d64b26fb1dd176e30bc35e7525e23518ee"}
+             :sha256 => "ec3647320e782506721c6799f9d2bbcce178403e1086ad26a817adf7f84b33ce"}
 
 s.framework = "UIKit"
 s.dependency 'PLCrashReporter', '~> 1.11.0'
