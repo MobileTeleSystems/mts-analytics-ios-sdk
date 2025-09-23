@@ -1,0 +1,20 @@
+version: 1
+
+builder:
+  configs:
+    - platform: ios
+    - platform: tvos
+
+metadata:
+  categories:
+    - analytics
+    - monitoring
+  keywords:
+    - mts
+    - analytics
+    - spm
+    - ios
+    - swift
+    - sdk
+  documentation: "https://a.mts.ru/support/"
+
