@@ -6,8 +6,8 @@ import PackageDescription
 let package = Package(
     name: "MTAnalytics",
     platforms: [
-        .iOS(.v13),
-        .tvOS(.v13)
+        .iOS(.v15),
+        .tvOS(.v15)
     ],
     products: [
          .library(name: "MTAnalytics", targets: ["MTAnalytics"])
@@ -20,8 +20,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "MTAnalytics",
-            url: "https://packages.a.mts.ru/repository/apple-sdk/ios-sdk/build/MTAnalytics-5.3.1.zip",
-            checksum: "ec3647320e782506721c6799f9d2bbcce178403e1086ad26a817adf7f84b33ce"
+            url: "https://packages.a.mts.ru/repository/apple-sdk/ios-sdk/build/MTAnalytics-6.0.0.zip",
+            checksum: "33f78bf80b6556006190e54e35b1d77ace0d7ef72c42ef900e03fefa1ab593ec"
          )
     ]
 )
