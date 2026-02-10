@@ -1,5 +1,13 @@
 # Changelog
 
+## v.6.2.0 - Feb 10, 2026
+
+### Added
+- Добавлено поле `сrossSessionId` в MTAppEvent.
+
+### Fixed
+- Улучшена общая стабильность.
+
 ## v.6.1.0 - Dec 17, 2025
 
 ### Changed
