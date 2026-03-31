@@ -1,5 +1,18 @@
 # Changelog
 
+## v.6.4.0 - Mar 31, 2026
+
+### Added
+- Добавлен метод `setUserAgent`, позволяющий задавать заголовок `User-Agent` в запросы.
+
+### Changed
+- Исправлена публичная ссылка на репозиторий с `https://github.com/MobileTeleSystems/mts-analytics-ios-sdk` на `https://github.com/MTSWebServices/mts-analytics-ios-sdk`
+- Удален автоматический сбор `User-Agent`
+
+### Fixed
+- Исправлен конфликт с перехватом запросом при выключенном SDK.
+
+
 ## v.6.3.0 - Mar 5, 2026
 
 ### Added
