@@ -19,7 +19,7 @@
 1. Добавьте зависимость в **Package.swift**
 ```
 .dependencies: [
-    .package(url: "https://github.com/MTSWebServices/mts-analytics-ios-sdk", from: "6.4.0")
+    .package(url: "https://github.com/MTSWebServices/mts-analytics-ios-sdk", from: "6.5.0")
 ],
 ```
 2. В секции **targets** подключите модуль SDK:
@@ -35,13 +35,13 @@
 ### Cocoapods
 1. Чтобы добавить библиотеку MTAnalytics в проект, через CocoaPods добавьте в Podfile:
 ```ruby
-pod 'MTAnalytics',  '~> 6.4.0'
+pod 'MTAnalytics',  '~> 6.5.0'
 ```
 
 Теперь при установке MTAnalytics через Cocoapods, начиная с **5.3.0**, необходимо указывать **pod GRDB** таким образом:
 ```ruby
 pod 'GRDB.swift', git: 'https://github.com/groue/GRDB.swift.git', tag: 'v6.29.3'
-pod 'MTAnalytics', '~> 6.4.0'
+pod 'MTAnalytics', '~> 6.5.0'
 ```
 
 2. Далее устанавливаем ссылку на библиотеку MTAnalytics в Podfile:
@@ -127,9 +127,3 @@ struct YourAppNameApp: App {
 
 ## Документация
 Подробные инструкции по интеграции, включая установку, конфигурацию, тестирование и многое другое, вы можете найти в [полной документации](https://a.mts.ru/support/).
-
-## Команда разработки
-
-- Павел Богарт, pibogar1@mts.ru
-- Анита Хасанова, arkhas12@mts.ru
-- Леонид Перлин, lperlin@mts.ru
